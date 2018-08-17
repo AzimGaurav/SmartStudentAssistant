@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/academic">
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="@string/nav_notes" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="@string/nav_schedule" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_attendance"
+            android:title="@string/nav_attendance" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_courses"
+            android:title="@string/nav_courses" />
+        <item
+            android:id="@+id/nav_notices"
+            android:icon="@drawable/ic_notices"
+            android:title="@string/nav_notices" />
+    </group>
+    <group android:id="@+id/non_academic">
+        <item
+            android:id="@+id/nav_submissions"
+            android:icon="@drawable/ic_submission"
+            android:title="@string/nav_submissions" />
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/ic_expenses"
+            android:title="@string/nav_expenses"/>
+    </group>
+    <group android:id="@+id/other">
+        <item
+            android:id="@+id/settings"
+            android:title="@string/nav_settings"
+            android:icon="@drawable/ic_settings"/>
+        <item
+            android:id="@+id/feedback"
+            android:title="@string/nav_feedback"
+            android:icon="@drawable/ic_feedback"/>
+        <item
+            android:id="@+id/contact_us"
+            android:title="@string/nav_contact_us"
+            android:icon="@drawable/ic_contact_us"/>
+    </group>
+</menu>

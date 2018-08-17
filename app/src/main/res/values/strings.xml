@@ -1,0 +1,134 @@
+<resources>
+    <!-- App specific strings -->
+    <string name="app_name">Smart Student Assistant</string>
+    <string name="title_activity_main">Smart Student Assistant</string>
+
+    <!-- Log In -->
+    <string name="login_header">Log In</string>
+    <string name="email_hint">Enter Email ID</string>
+    <string name="password_hint">Enter password</string>
+    <string name="login_button">Log In</string>
+    <string name="register_button">Register</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <!-- Navigation header user details -->
+    <string name="user_name">User name</string>
+    <string name="user_email">username@gmail.com</string>
+
+    <!-- Navigation drawer options -->
+    <string name="nav_notes">Notes</string>
+    <string name="nav_courses">Courses</string>
+    <string name="nav_attendance">Attendance</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_notices">Notices</string>
+    <string name="nav_submissions">Submissions</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_contact_us">Contact Us</string>
+
+    <!-- Navigation drawer related strings -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_logout">Log out</string>
+
+    <!--Notes Details -->
+    <string name="notes_title">Title</string>
+    <string name="notes_desc">Notes Description</string>
+    <string name="note_hint">Type here..</string>
+    <string name="save_note">Save</string>
+    <string name="share_note">Share</string>
+    <string name="delete_note">Delete</string>
+
+    <!-- Notes colors-->
+    <string-array name="bg_colors">
+        <item>#fff17a0a</item>
+        <item>#ff3f51B5</item>
+        <item>#ff3B8d95</item>
+        <item>#ff00ddff</item>
+        <item>#ff0099cc</item>
+        <item>#ff33b5e5</item>
+        <item>#ff669900</item>
+        <item>#ff99cc00</item>
+        <item>#ffff8800</item>
+        <item>#ffffbb33</item>
+        <item>#ffaa66cc</item>
+        <item>#ffcc0000</item>
+        <item>#ffff4444</item>
+    </string-array>
+
+    <!-- Notes themes-->
+    <string-array name="my_fonts">
+        <item>agency_regular.TTF</item>
+        <item>amatic_sc_regular.ttf</item>
+        <item>century_schoolbook.TTF</item>
+        <item>chiller.TTF</item>
+        <item>digiface.ttf</item>
+        <item>dancing_script_regular.otf</item>
+        <item>forte.TTF</item>
+        <item>grand_hotel_regular.otf</item>
+        <item>great_vibes_regular.otf</item>
+        <item>harry_potter.TTF</item>
+        <item>kaushan_script_regular.otf</item>
+        <item>lucida_calligraphy.TTF</item>
+        <item>lucida_fax.TTF</item>
+        <item>magneto.TTF</item>
+        <item>monotype_corsiva.TTF</item>
+        <item>ostrich_regular.ttf</item>
+        <item>segoe_marker.ttf</item>
+        <item>sofia_regular.otf</item>
+        <item>typo_comics_demo.otf</item>
+        <item>ubuntu_mono_regular.ttf</item>
+    </string-array>
+
+    <!-- Course details -->
+    <string name="course_title">Course Title : </string>
+    <string name="course_prerequisites">Pre-requisites : </string>
+    <string name="course_textbooks">Textbooks : </string>
+    <string name="course_assessment_table">Assessment Table : </string>
+    <!-- Assessment Table details -->
+    <string name="header_exam">Exam</string>
+    <string name="header_marks">Marks</string>
+    <string name="row1_exam">ISE</string>
+    <string name="row1_marks"> 20 </string>
+    <string name="row2_exam">MSE</string>
+    <string name="row2_marks"> 30 </string>
+    <string name="row3_exam">ESE</string>
+    <string name="row3_marks"> 50 </string>
+    <string name="total">Total</string>
+    <string name="total_marks">100</string>
+    <string name="course_contents">Course Contents : </string>
+    <!-- Module Details -->
+    <string name="module_name">Module 1 : </string>
+    <string name="module_points">Points : </string>
+
+    <!-- Attendance Details -->
+    <string name="sessions">Sessions taken : </string>
+    <string name="present_count">Present : </string>
+    <string name="absent_count">Absent : </string>
+    <string name="attendance_percent">Attendance : </string>
+    <!-- Attendance table -->
+    <string name="sr">Sr.</string>
+    <string name="date">Date </string>
+    <string name="time">Time </string>
+    <string name="status">Status </string>
+
+
+    <!-- Expenses Details -->
+    <string name="default_month">August</string>
+    <string name="default_year">2018</string>
+    <string name="default_budget">Rs.100</string>
+    <string name="food">Food</string>
+    <string name="shopping">Shopping</string>
+    <string name="money_exchange">Money Exchange</string>
+    <string name="others">Others</string>
+    <string name="input_budget">Enter new budget</string>
+    <string name="item">Item</string>
+    <string name="amount">Amount</string>
+    <!-- Other details -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notes_details">NotesDetailsActivity</string>
+    <string name="title_activity_course_details">CourseDetailsActivity</string>
+    <string name="title_activity_attendance_details">AttendanceDetails</string>
+    <string name="title_activity_temp">TempActivity</string>
+</resources>

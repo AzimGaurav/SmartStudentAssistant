@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151853421298",
+    "firebase_url": "https://smart-student-assistant.firebaseio.com",
+    "project_id": "smart-student-assistant",
+    "storage_bucket": "smart-student-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151853421298:android:9446acfef1a479be",
+        "android_client_info": {
+          "package_name": "com.azimgaurav.smartstudentassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151853421298-3nindum0m099j7hr8nlh14d0hvnjnj82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.azimgaurav.smartstudentassistant",
+            "certificate_hash": "9faf4f015c37d82aaee088783f1ef44f4c38f4be"
+          }
+        },
+        {
+          "client_id": "151853421298-2cgjpv8o319uongeo3e348ack2kmi5kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXBOrqI02Rc6KWnZb-RUP0kzm9K77Gey8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151853421298-2cgjpv8o319uongeo3e348ack2kmi5kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

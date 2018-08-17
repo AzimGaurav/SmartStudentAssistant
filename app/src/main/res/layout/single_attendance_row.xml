@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:id="@+id/session_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_session_sr"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/sr"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_session_date"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/date"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_session_time"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/time"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_session_status"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/status"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</TableLayout>

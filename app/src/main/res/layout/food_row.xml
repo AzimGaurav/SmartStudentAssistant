@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="2dp"
+        android:elevation="10dp"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_marginTop="5dp"
+            android:elevation="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_weight="1"
+                android:background="#80CBC4"
+                android:gravity="center"
+                android:elevation="10dp"
+                android:padding="10dip"
+                android:text="@string/item"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="#FFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
+                android:gravity="center"
+                android:background="#80CBC4"
+                android:padding="10dip"
+                android:text="@string/amount"
+                android:textColor="#FFF"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#80CBC4"
+                android:padding="10dip"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:text="@string/date"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
